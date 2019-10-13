@@ -8,6 +8,6 @@ This is still beta, however I have added functionality to Windows, but have not 
 
 
 **Screenshots:**
-![Solo Mining](https://i.imgur.com/Fd2t4ce.png)
+![Solo Mining](https://i.imgur.com/KOI1R8u.png)
 
 ![Pool Mining](https://i.imgur.com/0QJDBft.png)

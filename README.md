@@ -4,7 +4,7 @@ This is still beta, however I have added functionality to Windows, but have not 
 ## Running application
 **Linux:** Download, cd to directory and run `./SugarchainPoolMiner(Windows).py` or `./SugarchainSoloMiner(Windows).py`
 
-**Windows:** Donwload, cd directory and run `python3 SugarchainPoolMiner(Windows).py` or `python 3 SugarchainSoloMiner(Windows).py`
+**Windows:** Donwload, Extract and choose either Pool or Solo miner. Then run the .bat file. Make sure AV is disabled so that cpuminer is allowed.:+1:
 
 
 **Screenshots:**

@@ -1,5 +1,6 @@
 # sugarchain-GUI-miner
 This is still beta, however I have added functionality to Windows, but have not compiled for Linux yet. Will do later. GUI will work for both Windows and Linux though.
+
 **Update (14/10/19):** Full release for windows is out now! [Releases](https://github.com/Nugetzrul3/sugarchain-GUI-miner/releases)
 
 ## Running application

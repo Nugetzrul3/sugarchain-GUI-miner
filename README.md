@@ -7,6 +7,8 @@ This is still beta, however I have added functionality to Windows, but have not 
 
 **Update (19/10/19):** New release with added features and fixed bugs! [Releases](https://github.com/Nugetzrul3/sugarchain-GUI-miner/releases)
 
+**Update (4/11/19):** Added New installer for easier installation
+
 ## Running application
 **Linux:** Download, cd to directory and run `./SugarchainPoolMiner(Windows).py` or `./SugarchainSoloMiner(Windows).py`
 

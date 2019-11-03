@@ -17,6 +17,23 @@ class Ui_Form(object):
 
         self.setupUi(Form)
 
+class Mining:
+    
+    def __init__(self):
+        self.rpc = rpc.Rpc()
+        
+    def mining(self):
+        mining_info = self.rpc.getmininginfo()
+        height = mining_info["blocks"]
+        difficulty = mining_info["difficulty"]
+        network_hs = mining_info["networkhashps"]
+        network_Ghs = network_hs/1000000000
+        
+        embed.add_field(name="Current Height", value='{}'.format(height))
+        embed.add_field(name="Network Difficulty", value='{0:.2f}'.format(difficulty))
+        embed.add_field(name="Network Hashrate", value='{0:.2f} GH/s'.format(network_Ghs))
+        await self.label.say(embed=embed)
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(600, 300)

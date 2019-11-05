@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 import os
-import threading
+import json
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -19,9 +19,6 @@ class Ui_Form(object):
         self.setupUi(Form)
 
     def save_config(self):
-        import json
-        global config
-
         config = {
             'address': str(self.lineEdit_2.text()),
             'URL': str(self.lineEdit.text()),
@@ -33,10 +30,11 @@ class Ui_Form(object):
         with open('data.json', 'w') as f:
             f.write(json.dumps(config))
 
+    def setupUi(self, Form):
+        config = {}
         with open('data.json', 'r') as file:
             config = (json.load(file))
 
-    def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(600, 300)
         Form.setMinimumSize(QtCore.QSize(600, 300))

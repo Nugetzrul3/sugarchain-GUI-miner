@@ -9,6 +9,8 @@ This is still beta, however I have added functionality to Windows, but have not 
 
 **Update (4/11/19):** Added New installer for easier installation
 
+**Update (5/11/19):** New save configuration button added.
+
 ## Running application
 **Linux:** Download, cd to directory and run `./SugarchainPoolMiner(Windows).py` or `./SugarchainSoloMiner(Windows).py`
 

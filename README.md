@@ -1,6 +1,8 @@
 [![Github All Releases](https://img.shields.io/github/downloads/Nugetzrul3/sugarchain-GUI-miner/total.svg)]()
 
-# sugarchain-GUI-miner
+# This project is no longer maintained. Please use my new miner instead: https://github.com/Nugetzrul3/CPU-GUI-Miner
+
+### sugarchain-GUI-miner
 This is still beta, however I have added functionality to Windows, but have not compiled for Linux yet. Will do later. GUI will work for both Windows and Linux though.
 
 **Update (14/10/19):** Full release for windows is out now! [Releases](https://github.com/Nugetzrul3/sugarchain-GUI-miner/releases)
